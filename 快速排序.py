@@ -1,7 +1,7 @@
 def quicksort(array):
     if len(array) < 2:
         return array # 基线条件: 为空或者只包含一个元素的
-                     # 数组是有序的
+                     		# 数组是有序的
     else:
         pivot = array[0] # 基准值
         # 小于和大于基准值的元素组成子数组
